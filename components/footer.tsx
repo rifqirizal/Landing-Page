@@ -39,8 +39,8 @@ export default function Footer() {
         </button> */}
       </div>
 
-      <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="container mx-auto px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
             <h3 className="text-2xl font-medium mb-6 tracking-tight">TriData</h3>
             <p className="text-[#F0F0F0]/80 mb-6">
@@ -124,7 +124,7 @@ export default function Footer() {
             </ul>
           </motion.div>
 
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
@@ -154,7 +154,7 @@ export default function Footer() {
                 </button>
               </form>
             )}
-          </motion.div>
+          </motion.div> */}
         </div>
 
         <div className="border-t border-[#333333] mt-16 pt-8 flex flex-col md:flex-row justify-between items-center">
